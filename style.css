@@ -1,0 +1,10 @@
+html {
+    font-family: "Open Sans", Oswald;
+}
+
+header {
+    background-color: #004175;
+    color:white; 
+    border-style: solid;
+    border-color: #89DEEF;
+}
