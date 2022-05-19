@@ -3,8 +3,22 @@ html {
 }
 
 header {
-    background-color: #004175;
-    color:white; 
+    background-color: #004175; 
+
     border-style: solid;
     border-color: #89DEEF;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+
+    font-size: 24px;
 }
+
+h2 {
+    font-size: 20px;
+}
+
+#main {
+
+}
+
+.dog
