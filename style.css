@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html {
     font-family: "Open Sans", Oswald;
 }
@@ -17,24 +20,48 @@ h2 {
     font-size: 20px;
 }
 
+.dogEntry{ 
+    border: 1px solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    padding: 1px;
+    flex: 6;
+}
+
 #main {
+
+align-items: center;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-background-color: blue;
+ /* background-color: blue;  */
 border: #89DEEF;
 }
 
 .dogTag {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: inline-block;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    flex: 0 1 auto;
     background-color: #89DEEF;
-    border-radius: 150px;
-    width:auto
+    border-radius: 50px;
+    width: auto;
+    text-align: center;
+    padding: 1%;
+    box-sizing: border-box;
+    margin: 2px;
+   
 }
 
-img {
+img { 
 max-width: 400px;
-padding-bottom: 0px;
+/* padding-bottom: 0px; */
+justify-content: space-between;
+padding-top: 30px; 
+}
+
+
+footer {
+
 }
